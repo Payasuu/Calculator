@@ -1,0 +1,57 @@
+.body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 98.3vh;
+    
+  }
+  
+  .container input {
+    padding-right: 10px;
+    width: 19.1rem;
+    height: 7rem;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: right;
+    font-weight: bold;
+    
+  }
+  
+  .button-number {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    
+  }
+  .keyboard0 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  
+  }
+
+  button {
+    margin: 1px;
+    border: none;
+    border-radius: 8px;
+    transition: all .4s ease;
+    font-size: large;
+    outline: none;
+  }
+  button:hover {
+    background: rgba(128, 128, 128, 0.384);
+  }
+  button:active {
+    transform: scale(0.7);
+  }
+  .ispressed {
+    transform: scale(0.7);
+    background: rgba(128, 128, 128, 0.384);
+    
+  }
